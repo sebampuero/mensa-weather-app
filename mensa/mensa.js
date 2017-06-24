@@ -4,7 +4,6 @@ var getMensaOptions = () =>{
   return new Promise((resolve,reject)=>{
     request({
       url : 'https://icampus.th-wildau.de/services.php?service=Canteen',
-      proxy : 'http://proxy.th-wildau.de:8080',
       json:true
     },(error,response,body)=>{
       if(error){
