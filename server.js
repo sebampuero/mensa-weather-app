@@ -3,7 +3,7 @@ const hbs = require('hbs');
 const moment = require('moment');
 const mensa = require('./mensa/mensa.js')
 var app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 
 hbs.registerPartials(__dirname + '/views/partials');
