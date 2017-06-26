@@ -19,11 +19,6 @@ var getMensaOptions = () =>{
   });
 }
 
-getMensaOptions().then((result)=>{
-  console.log(result.mensaClosedMsg!=null);
-},(error)=>{
-  console.log(error);
-})
 
 module.exports = {
   getMensaOptions

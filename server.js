@@ -16,7 +16,7 @@ hbs.registerHelper('getDate',()=>{
 });
 hbs.registerHelper('formatDate',(date)=>{
   moment.locale('de');
-  var theDate = moment(date).format('dddd');
+  var theDate = moment(date).format('dddd DD');
   return theDate;
 })
 
